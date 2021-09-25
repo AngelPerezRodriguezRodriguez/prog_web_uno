@@ -1,1 +1,3 @@
 Ahora yo trabajo en Git para mantener seguro mi código fuente.
+
+Yo Ricardo ahora colaboro con mi compañero mediante el uso de Git.
