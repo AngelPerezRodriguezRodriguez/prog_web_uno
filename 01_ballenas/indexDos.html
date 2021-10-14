@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ejemplo de una página en HTML">
+    <meta name="description" content="Ejemplo de una página en HTML5">
     <meta name="keywords" content="HTML5, Curso, Básico, UNAM, Aragón">
     <meta name="author" content="Angel Pérez">
     <title>Segunda Página</title>
@@ -19,32 +19,32 @@
         background-color: #D4AC0D;
     }
 
-    .tituloPrincipal {
+    header {
         background-color: #1F618D;
-        font-size: 45px;
+        font-size: 16px; /*<header> 16px <h1> 32px*/
         font-family: 'Franklin Gothic Medium';
+        text-align: center;
     }
 
-    .subtitulos {
+    h2 {
         background-color: #117A65;
-        font-size: 35px;
+        font-size: 26px; /*<h2> 24px*/
         font-family: 'Arial Narrow Bold';
-        color: cornsilk;
+        color: white;
+        text-align: center;
     }
 </style>
 
 <body>
-
-    <!--Comentario-->
     <header>
-        <center>
-            <h1 class="tituloPrincipal"> Mi Página Web</h1>
-        </center>
+        <!--1.CABEZERA-->
+        <h1> Mi Página Web</h1>
     </header>
 
     <hr>
 
     <nav>
+        <!--2.BARRA DE NAVEGACIÓN-->
         <ul>
             <li>Fotos</li>
             <li>Videos</li>
@@ -61,9 +61,8 @@
     <hr>
 
     <section>
-        <center>
-            <h2 class="subtitulos">Subtitulo 1</h2>
-        </center>
+        <!--3.INFORMACIÓN PRINICIPAL-->
+        <h2>Subtitulo 1</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eos cumque temporibus laboriosam nisi
             voluptas modi optio animi? Tenetur, accusantium voluptatum sed ullam est similique aut hic debitis repellat
             quia?</p>
@@ -72,9 +71,8 @@
     <hr>
 
     <section>
-        <center>
-            <h2 class="subtitulos">Subtitulo 2</h2>
-        </center>
+        <h2>Subtitulo 2</h2>
+
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eos cumque temporibus laboriosam nisi
             voluptas modi optio animi? Tenetur, accusantium voluptatum sed ullam est similique aut hic debitis repellat
             quia?</p>
@@ -83,9 +81,8 @@
     <hr>
 
     <section>
-        <center>
-            <h2 class="subtitulos">Subtitulo 3</h2>
-        </center>
+        <h2>Subtitulo 3</h2>
+
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eos cumque temporibus laboriosam nisi
             voluptas modi optio animi? Tenetur, accusantium voluptatum sed ullam est similique aut hic debitis repellat
             quia?</p>
@@ -94,9 +91,8 @@
     <hr>
 
     <section>
-        <center>
-            <h2 class="subtitulos">Subtitulo 4</h2>
-        </center>
+        <h2>Subtitulo 4</h2>
+
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eos cumque temporibus laboriosam nisi
             voluptas modi optio animi? Tenetur, accusantium voluptatum sed ullam est similique aut hic debitis repellat
             quia?</p>
@@ -105,11 +101,15 @@
     <hr>
 
     <aside>
+        <!--4.BARRA LATERAL-->
         <blockquote>Mensaje Número 1</blockquote>
         <blockquote>Mnesaje Número 2</blockquote>
     </aside>
 
+    <hr>
+
     <footer>
+        <!--5.PIE DE PÁGINA-->
         <p>Todos los derechos reservados UNAM Aragón</p>
     </footer>
 </body>
