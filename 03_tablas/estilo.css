@@ -1,0 +1,67 @@
+body {
+    /*background-color: #1ABC9C;*/
+    background-color: rgb(26,188,156);
+    font-size: 30px;
+}
+
+
+table {
+    width: 100%;
+}
+
+
+.redBackGr {
+    background-color: #E74C3C;
+}
+
+.blueBackGr {
+    background-color: #3498DB;
+}
+
+
+.purpleBackGr {
+    background-color: #8E44AD;
+}
+
+.yellowBackGr {
+    background-color: #F1C40F;
+}
+
+.whiteBackGr {
+    background-color: white;
+}
+
+.greenBackGr {
+    background-color: #2ECC71;
+}
+
+
+.whiteLetter {
+    color: white;
+}
+
+
+.border1{
+    border: gray 4px outset;
+}
+
+.border2{
+    border: gray 4px outset;
+}
+
+.border3{
+    border: gray 6px outset;
+}
+
+.border4{
+    border: gray 1px outset;
+}
+
+.grayBorder {
+    border: gray 1px solid;
+}
+
+
+.noMargPadd {
+    margin: -3px;
+}
