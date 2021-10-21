@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="estilo.css">
     <title>Tabla de Colores con Aaron</title>
 </head>
@@ -14,28 +15,22 @@
 
     <div class="whiteLetter">Ej 1. con 1 tabla:</div>
 
-    <table class="border1">
+    <table class="border1" cellspacing="0">
         <tr>
-            <td>
-                <div class="redBackGr grayBorder noMargPadd">
-                    Fila 1
-                </div>
+            <td class="redBackGr">
+                Fila 1
             </td>
         </tr>
 
         <tr>
-            <td>
-                <div align="right" class="blueBackGr grayBorder noMargPadd">
-                    Fila 2
-                </div>
+            <td class="blueBackGr" align="right">
+                Fila 2
             </td>
         </tr>
 
         <tr>
-            <td>
-                <div class="purpleBackGr grayBorder noMargPadd">
-                    Fila 3
-                </div>
+            <td class="purpleBackGr">
+                Fila 3
             </td>
         </tr>
     </table>
@@ -44,12 +39,20 @@
 
     <div class="whiteLetter">Ej 2. con 3 tablas:</div>
 
+    <table class="border1">
+        <tr>
+            <td class="blueBackGr">
+                Fila 1
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
     <table class="border2">
         <tr>
-            <td>
-                <div class="blueBackGr grayBorder">
-                    Fila 1
-                </div>
+            <td class="yellowBackGr" align="right">
+                Fila 2
             </td>
         </tr>
     </table>
@@ -58,22 +61,8 @@
 
     <table class="border3">
         <tr>
-            <td>
-                <div align="right" class="yellowBackGr grayBorder">
-                    Fila 2
-                </div>
-            </td>
-        </tr>
-    </table>
-
-    <br>
-
-    <table class="border4">
-        <tr>
-            <td>
-                <div class="whiteBackGr grayBorder">
-                    Fila 3
-                </div>
+            <td class="whiteBackGr">
+                Fila 3
             </td>
         </tr>
     </table>
@@ -86,7 +75,7 @@
         Fila 1
     </div>
 
-    <div align="right" class="redBackGr whiteLetter">
+    <div class="redBackGr whiteLetter" align="right">
         Fila 2
     </div>
 
