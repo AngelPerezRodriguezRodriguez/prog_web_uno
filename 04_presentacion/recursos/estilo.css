@@ -1,0 +1,70 @@
+body{
+    background-color: #4A235A;
+    font-family: monospace;
+    padding: 5em;
+}
+
+table {
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+
+
+.borde1 {
+    border: 20px solid white;
+    border-radius: 10px;
+}
+
+
+
+.fondoBlanco {
+    background-color: white;
+}
+
+.fondoAzul {
+    background-color: #154360;
+}
+
+.fondoNegro {
+    background-color: black;
+}
+
+
+
+.texto1 {
+    text-align: center;
+    font-size: 5em;
+    color: gray;
+}
+
+.texto2 {
+    font-size: 1em;
+    color: white;
+}
+
+.texto3 {
+    text-align: center;
+    font-size: 1em;
+    color: white;
+}
+
+
+
+.estiloLogo {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.rellenoTextoB {
+    padding: 50px;
+}
+
+.rellenoTextoC {
+    padding: 20px;
+}
