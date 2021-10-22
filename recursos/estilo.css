@@ -1,0 +1,108 @@
+@font-face {
+    font-family: fuenteTitulo;
+    src: url(fuente/The\ Humble.ttf);
+}
+
+body{
+    background-image: url(media/patron_uno.jpg);
+    font-family: monospace;
+    padding: 55px;
+}
+
+table {
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+
+
+.borde1 {
+    border: 20px solid white;
+    border-radius: 10px;
+}
+
+
+
+.fondoBlanco {
+    background-color: white;
+}
+
+.fondoAzul {
+    background-color: #154360;
+}
+
+.fondoNegro {
+    background-color: black;
+}
+
+/*.fondoMcCartney {
+    background-image: url(media/chaos.jpg);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    width: 100%;
+    padding: 40px;
+}*/
+
+
+
+.texto1 {
+    text-align: center;
+    font-family: fuenteTitulo;
+    font-size: 3em;
+    color: gray;
+}
+
+.texto2 {
+    font-size: 1em;
+    color: white;
+}
+
+.texto3 {
+    padding-left: 2%;
+}
+
+.texto4 {
+    text-align: center;
+    font-size: 1em;
+    color: white;
+}
+
+
+
+.sFesIcono {
+    width: 100%;
+    height: auto;
+}
+
+.iconoEnlace1 {
+    list-style-image: url(media/iconos_enlace/github.png);
+}
+
+.iconoEnlace2 {
+    list-style-image: url(media/iconos_enlace/facebook.png);
+}
+
+.iconoEnlace3 {
+    list-style-image: url(media/iconos_enlace/unam_oro.png);
+}
+
+.iconoEnlace4 {
+    list-style-image: url(media/iconos_enlace/youtube.png);
+}
+
+
+
+.rellenoTextoA {
+    padding: 30px;
+}
+
+.rellenoTextoB {
+    padding: 50px;
+}
+
+.rellenoTextoC {
+    padding: 20px;
+}
