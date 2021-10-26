@@ -51,12 +51,12 @@ a {
 .texto1 {
     text-align: center;
     font-family: fuenteTitulo;
-    font-size: 3em;
+    font-size: 4em;
     color: gray;
 }
 
 .texto2 {
-    font-size: 1em;
+    font-size: 120%;
     color: white;
 }
 
@@ -66,7 +66,7 @@ a {
 
 .texto4 {
     text-align: center;
-    font-size: 1em;
+    font-size: 120%;
     color: white;
 }
 
