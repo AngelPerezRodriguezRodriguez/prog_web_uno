@@ -3,7 +3,7 @@
     src: url(fuente/The\ Humble.ttf);
 }
 
-body{
+body {
     background-image: url(media/patron_uno.jpg);
     font-family: monospace;
     padding: 55px;
