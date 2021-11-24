@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+</head>
+<body>
+
+    <div>
+        <h1>Mi primer formulario</h1>
+    </div>
+    
+    <form action="control,php" method="get">
+        <p>Nombre: <input type="text" name="nombre" size="50" required autofocus></p>
+        <p>Año de nacimiento: <input type="number" name = "anio_nac" min="1975"></p>
+        <p>Correo: <input type="email" name="correo" placeholder="correo con dominio @aragon.unam.mx" size="30"></p>
+        <p>Numero de tarjeta: <input type="text" name="no_tarjeta" maxlength="16" placeholder="ingresa los 16 dígitos"></p>
+        <p>Contraseña: <input type="password" name="contraseña" placeholder="ingresa tu contraseña"></p>
+        
+        <hr>
+
+        <p>
+            Genero:
+            <input type="radio" name="genero" value="H"> Hombre
+            <input type="radio" name="genero" value="M"> Mujer
+            <input type="radio" name="genero" value="O"> Otro
+        </p>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="borrar">
+
+        <button type="submit">
+            <img src="dogo.jpg" alt="dogo imagen" width="30" height="30"> Enviar
+        </button>
+    </form>
+
+</body>
+</html>
