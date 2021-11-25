@@ -1,0 +1,40 @@
+body {
+    background-color: #1abc9c;
+    font-size: 40px;
+    padding: 5px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 6px;
+}
+
+
+
+.tableHeight {
+    height:20em;
+}
+
+.greenBackGr {
+    background-color: #2ecc71;
+}
+
+.redBackGr {
+    background-color: #E74C3C;
+}
+
+.purpleBackGr {
+    background-color: #9B59B6;
+}
+
+
+
+.whiteLetter {
+    color: white;
+}
+
+
+
+.whiteBorder {
+    border: 5px solid white;
+}

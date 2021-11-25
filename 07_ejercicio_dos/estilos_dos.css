@@ -1,0 +1,44 @@
+body {
+    background-color: #1ABC9C;
+    font-size: 70px;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+
+
+.blueBackGr {
+    background-color: #00FFFF;
+}
+
+.purpleBackGr {
+    background-color: #9B59B6;
+    border-spacing: 6px;
+}
+
+
+
+.whiteLetter {
+    color: white;
+}
+
+
+
+.whiteBorder {
+    border: 8px solid white;
+}
+
+.dashedWhiteBorder {
+    border: white 6px dashed;
+    
+}
+
+.dashedRedBorder {
+    border: red 6px dashed;
+    width: 80%;
+    padding: 8px;
+}
+
